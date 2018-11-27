@@ -1,0 +1,26 @@
+# /etc/conf.d/teloxd: config file for /etc/init.d/teloxd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/telox/telox.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/teloxd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/teloxd.pid"
+
+# Where to write teloxd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/teloxd"
+
+# User and group to own teloxd process
+#BITCOIND_USER="telox"
+#BITCOIND_GROUP="telox"
+
+# Path to teloxd executable
+#BITCOIND_BIN="/usr/bin/teloxd"
+
+# Nice value to run teloxd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
